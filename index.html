@@ -3,107 +3,92 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Learn, Practice & Grow by Umer Malik</title>
-<link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+<title>About Us | Umer Malik</title>
+<link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-body{
-  margin:0;
-  font-family:'Segoe UI',sans-serif;
-  background:linear-gradient(120deg,#f0f7ff 0%,#ffffff 50%,#fff8e1 100%);
-  color:#222;
-}
-header{
-  background:linear-gradient(90deg,#0078D7,#005fa3);
-  color:#fff;
-  text-align:center;
-  padding:35px 0;
-  font-size:2rem;
-  font-weight:600;
-  box-shadow:0 3px 10px rgba(0,0,0,0.25);
-}
-.container{
-  max-width:1200px;
-  margin:50px auto;
-  display:flex;
-  justify-content:space-around;
-  flex-wrap:wrap;
-  gap:30px;
-}
-.column{
-  flex:1 1 350px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  gap:20px;
-}
-a{
-  display:block;
-  width:85%;
-  text-align:center;
-  text-decoration:none;
-  background:#fff;
-  border-left:8px solid #FFD700;
-  color:#222;
-  padding:18px 20px;
-  font-weight:600;
-  font-size:1.1rem;
-  border-radius:15px;
-  box-shadow:0 8px 18px rgba(0,0,0,0.15);
-  transition:all .3s ease;
-}
-a:hover{
-  transform:translateY(-5px);
-  background:#f9fbff;
-  box-shadow:0 12px 25px rgba(0,0,0,0.25);
-}
-footer{
-  text-align:center;
-  border-top:3px solid #FFD700;
-  padding:15px;
-  margin-top:60px;
-  font-size:0.9rem;
-  color:#555;
-}
-h2{
-  color:#0078D7;
-  text-align:center;
-  font-weight:700;
-  margin-bottom:15px;
-}
+body{margin:0;font-family:'Segoe UI',sans-serif;background:#eaf2fb;color:#222;line-height:1.6;}
+header{position:relative;background:linear-gradient(90deg,#0a3d91,#005fa3,#0078D7);color:#fff;padding:20px 30px;border-radius:40px;margin:15px;box-shadow:0 4px 15px rgba(0,0,0,0.25);text-align:center;}
+.nav{position:absolute;bottom:15px;right:30px;display:flex;gap:10px;}
+.nav a{color:#fff;text-decoration:none;font-weight:800;font-size:1rem;padding:8px 20px;border-radius:25px;background:rgba(255,255,255,0.15);transition:all 0.3s ease;}
+.nav a:hover{background:#ffffff;color:#005fa3;transform:scale(1.08);}
+.hero h1{font-size:1.6rem;font-weight:800;letter-spacing:0.5px;margin:0 0 6px 0;}
+/* Updated header text color to white */
+.hero p{font-size:0.95rem;color:#ffffff;opacity:1;margin:0;padding-bottom:25px;}
+
+/* CONTENT STYLING */
+.content-wrapper {max-width:900px; margin:50px auto; padding:0 20px;}
+.about-card {background:#fff; padding:40px; border-radius:25px; box-shadow:0 10px 30px rgba(0,0,0,0.1); border-top:8px solid #0078D7;}
+h2 {color:#005fa3; font-weight:800; border-bottom:2px solid #eaf2fb; padding-bottom:10px; margin-top:30px;}
+p {margin-bottom:20px; font-size:1.05rem; color:#444;}
+ul {list-style:none; padding:0;}
+li {padding:8px 0; display:flex; align-items:center; font-size:1rem; color:#333;}
+li::before {content:"✔"; color:#28a745; font-weight:bold; margin-right:12px;}
+
+.quote-box {background:#f0f7ff; border-left:5px solid #FFD700; padding:20px; margin:30px 0; font-style:italic; border-radius:0 15px 15px 0;}
+.highlight {color:#0a3d91; font-weight:700;}
+
+.footer-container {text-align:center; width:100%; margin:70px 0 30px 0;}
+footer{display:inline-block; text-align:center; border-top:3px solid #FFD700; padding:10px 25px; font-size:0.9rem; font-style:italic; font-weight:600; background:#f4f8fd; color:#444; border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.15);}
 </style>
 </head>
 <body>
 
-<header>🌐 Learn, Practice & Grow</header>
-
-<div class="container">
-
-  <div class="column">
-    <h2>🍳 Recipes</h2>
-    <a href="https://umeraio.github.io/donner/">The Ultimate Donner Wrap Secret</a>
-    <a href="https://umeraio.github.io/soup/">Authentic Desi Yakhni Soup Recipe</a>
+<header>
+  <div class="hero">
+    <h1>About Us</h1>
+    <p>A global commitment to serving humanity through education.</p>
   </div>
+  <div class="nav"><a href="https://umeraio.github.io/home/">🏠 Home</a></div>
+</header>
 
-  <div class="column">
-    <h2>💻 Technical</h2>
-    <a href="https://umeraio.github.io/assessor/">Certified Assessor Training Gateway</a>
-    <a href="https://umeraio.github.io/pc-boot-process/index.html">The Anatomy of a PC Boot Cycle</a>
-    <a href="https://umeraio.github.io/srx-commands/">Essential SRX Command Mastery</a>
-    <a href="https://umeraio.github.io/win11-tpm-update/">How to Update TPM 2.0 for Win 11</a>
-    <a href="https://umeraio.github.io/github-html-files-update-/">Github HTML File-Update</a>
-    <a href="https://umeraio.github.io/Creating-Publishing-website-GitHub-/">Creation, Publishing, Renaming & Deletion- Github</a>
+<div class="content-wrapper">
+  <div class="about-card">
+    <p class="highlight">Welcome to our platform a space built with one clear purpose: to serve humanity through education.</p>
+    
+    <p>We are qualified teachers holding UK recognized teaching qualifications, with extensive international experience in education. Over the years, we have taught students and designed academic curricula across the <strong>United Kingdom, United States, United Arab Emirates, Qatar, China, and Kuwait.</strong> Our global teaching journey has allowed us to understand diverse education systems, cultures, and student needs.</p>
+
+    <div class="quote-box">
+      "Education is not just a profession for us — it is a responsibility and a lifelong commitment."
+    </div>
+
+    <h2>Our Expertise</h2>
+    <p>Having worked across international schools and academic institutions, we have contributed to:</p>
+    <ul>
+      <li>Curriculum design and academic planning</li>
+      <li>Student-centered learning strategies</li>
+      <li>Teacher training and mentoring</li>
+      <li>Educational leadership and development</li>
+      <li>Cross-cultural academic integration</li>
+    </ul>
+
+    <h2>Our Mission</h2>
+    <p>Now, we are dedicating our expertise to something even greater: helping individuals access free educational guidance and opportunities so they can build their careers and move forward with confidence.</p>
+    
+    <ul>
+      <li>Guide students toward free or affordable education opportunities</li>
+      <li>Support career growth and professional development</li>
+      <li>Provide academic direction and mentorship</li>
+      <li>Share global educational insights</li>
+      <li>Continuously update resources to meet evolving needs</li>
+    </ul>
+
+    <div class="quote-box" style="border-left-color: #28a745;">
+      "There is nothing more powerful than knowledge. There is nothing more noble than serving others."
+    </div>
+
+    <p>This website will continue to grow. We will regularly update it with new resources, guidance, opportunities, and practical tools to support learners worldwide. Whether you are a student seeking direction, a professional aiming to advance, or someone searching for a second chance at education <strong>you are welcome here.</strong></p>
+
+    <p style="text-align:center; font-weight:800; color:#0a3d91; margin-top:40px;">
+      "There is nothing better than serving humanity & You gain knowledge by Sharing knowledge."
+    </p>
   </div>
-
-  <div class="column">
-    <h2>🌙 Ramzan</h2>
-    <a href="https://umeraio.github.io/ramzan/">UK Ramzan Timetable 2026</a>
-  </div>
-
 </div>
 
-<footer>
-Crafted Through Research by Umer Malik
-</footer>
+<div class="footer-container">
+  <footer>
+  Crafted Through Research by Umer Malik
+  </footer>
+</div>
 
 </body>
 </html>
